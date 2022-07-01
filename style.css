@@ -4,13 +4,13 @@ body {
     font-family: Verdana;
     margin: auto;
 }
+
 .photo{
     border: 1px solid ;
     border-radius: 50%;
     max-height: 100px ; 
     max-width: 100px;
     margin: center;
-    
 }
 
 #title, .subtitle, .post_title {
@@ -65,4 +65,10 @@ a {
     margin-bottom: 15px;
     border-radius: 15px;
     width: 100%;
+}
+/* Sigam - Filipe Srubens(GitHub) | Mudanças baseadas no código corrigido por ele*/
+.main_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
